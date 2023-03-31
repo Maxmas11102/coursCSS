@@ -1,0 +1,73 @@
+/* il y a pas de inporte */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@500&family=Montserrat&family=Press+Start+2P&display=swap');
+
+H1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', sans-serif;
+     /* Choisir une police avec des bords ronds */
+  font-family: "Arial Rounded MT Bold", sans-serif,;
+  /* Arrondir les bords avec une valeur en pixels ou en pourcentage */
+  border-radius: 10px;
+  /* Ajouter un contour pour augmenter l'épaisseur des bords */
+  border: 2px solid black ;
+  background-color: black;
+  color: rgb(48, 132, 132);
+
+}
+a{
+    /* autre facon decrire le noir */
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    /* j'ai retire le surlignement */
+    text-decoration:none;
+}
+em{
+    color:#04ff00d6;
+}
+body{
+    background:url(../images/BG.jpg);
+    background-size: cover ;
+    background-attachment: fixed;
+}
+H2{
+    border-radius: 15px;
+    border: 2px solid black;
+     background: linear-gradient(to right, rgb(0, 0, 255), rgba(255, 255, 255));
+}
+#toto{
+    background-color:rgba(255, 255, 255, 0.527);
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px green ;
+     display: flex;
+     justify-content: space-around;
+     list-style-type:none
+}
+#tutu{
+    background-color:rgba(255, 255, 255, 0.527);
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none
+}
+p{
+    background-color:rgba(255, 255, 255, 0.527);
+
+}
+img{
+    text-align: center;
+    border:solid 2px green;
+    overflow: clip;
+    border-radius: 10px 10px 10px 10px;
+}
+#tuto{
+    background-color:rgba(255, 255, 255, 0.527);
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type:left
+
+
+}
